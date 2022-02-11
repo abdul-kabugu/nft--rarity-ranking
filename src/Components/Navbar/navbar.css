@@ -1,0 +1,370 @@
+.nav-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    min-height: 60px;
+    
+    align-items: center;
+}
+.nav-main{
+    background-color: #d9d9d9;
+    
+}
+.nav-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-container{
+    display: flex;
+    align-items: center;
+    
+}
+.show-btn{
+    display: none;
+}
+.social-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.twitter{
+    background-color: #4094e1;
+}
+.ig{
+    background-color: #f759ab;
+}
+.linkeldin{
+    background-color: #4094e1;
+}
+.btn{
+    background-color: #4094e1;
+    padding: 6px 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 14px;
+   
+}
+.list-btn{
+    cursor: pointer;
+    outline: none;
+    border: unset;
+    
+    
+}
+.list-btn:focus{
+    outline: none;
+}
+.nav-left{
+    
+}
+.logo{
+    text-transform: uppercase;
+}
+.home-viewer-container{
+    width: 100vw;
+    height: 30vh;
+    background-color: #69c0ff;
+    border-radius: 0px 14px 20px 0px;
+}
+.card-container{
+    
+}
+.big-card-container{
+    background-color: white;
+    width: 400px;
+    overflow: scroll;
+    padding: 10px 15px;
+
+}
+.big-card-title{
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.collection-container{
+    
+    
+}
+.card-img{
+    width: 200px;
+    height: 240px;
+}
+.card-container{
+    display: flex;
+    position: fixed;
+    top: 70px;
+
+    left: 110px;
+    right: auto;
+    width: 100%;
+    height: 500px;
+    bottom: 20px;
+    z-index: 2;
+    
+}
+.announcement-container{
+    width: 100vw;
+    padding: 20px;
+    height: 130px;
+    
+}
+.ad-container{
+    width: 300px;
+    margin: 0 auto;
+}
+.collection-container-header{
+    background-color: #4094e1;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    padding: 30px 15px;
+    width: 100vw;
+    height: 40vh;
+}
+.collection-content{
+    font-size: 20px;
+    color: #bfbfbf;
+    
+    position: relative;
+    top: 190px;
+    
+    
+}
+.media-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #4094e1;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.collection-name{
+    font-size: 21px;
+    color: white;
+    text-transform: capitalize;
+}
+.list-item-container{
+    display: flex;
+    font-size: 19px;
+    text-transform: capitalize;
+    color: white;
+    border: 2px solid white;
+    border-radius: 14px;
+}
+.list-item{
+    list-style-type: none;
+    margin: 0 10px;
+    padding: 10px 10px;
+}
+.total-numbers{
+    font-size: 21px;
+    font-weight: 500;
+}
+.coins-media{
+    display: flex;
+    margin-right: 20px;
+}
+.logo-icon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #4094e1;
+    border-radius: 50%;
+}
+.upcoming-container{
+   
+    
+}
+.upcoming-header{
+    width: 100vw;
+    height: 60vh;
+    background-color: #40a9ff;
+    position: absolute;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+.upcoming-title{
+    color: white;
+    font-size: 42px;
+    font-weight: 500;
+}
+.upcoming-length{
+    font-size: 22px;
+}
+.length-no{
+    font-size: 25px;
+    font-weight: 600;
+}
+.coll-title{
+    color: wheat;
+    margin-top: auto;
+}
+.card-attri-icon{
+   width: 15px;
+   border-radius: 50%; 
+   cursor: pointer;
+}
+.upcoming-collec-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(236,236,236);
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: 270px;
+}
+.item-card{
+    
+    width: 220px;
+    height: auto;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+   
+}
+.card-image{
+    width: 200px;
+}
+.card-name{
+    font-size: 21px;
+    text-transform: capitalize;
+   
+}
+.card-currency{
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(31, 28, 28, .7);
+    padding: 3px 10px;
+    display: inline-block;
+    border-radius: 8px;
+}
+.card-icon{
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: capitalize;
+    color: rgb(29, 25, 25, .5);
+    margin: 0;
+
+}
+.card-attributes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.getlisted-container{
+    width: 700px;
+    margin: 0 auto;
+}
+
+
+
+/*RESPONSIVE DESIGN   */
+
+@media only screen and (max-width: 600px){
+    .nav-right{
+       display: flex;
+       flex-direction: column;
+       width: 100vw;
+       margin-top: 200px;
+       height: 300px;
+        
+      
+    }
+   
+    .nav-main{
+        width: 100%;
+        height: auto;
+        
+
+    }
+    .nav-container{
+     
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .nav-left{
+   display: flex;
+   justify-content: space-between;
+   width: 100vw;
+   padding: 0 5px;
+     
+   }
+   .show-btn{
+       display: block;
+   }
+
+   /*announcement-container*/
+   .announcement-container{
+       display: none;
+   }
+   /*collection-container-header*/
+   .collection-container-header{
+       height: 70vh;
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: start;
+       align-items: center;
+       
+   }
+   /*collection content*/
+   .collection-content{
+    font-size: 20px;
+    color: #bfbfbf;
+    
+    position: relative;
+    top: 270px;
+    
+    
+}
+/*CARD STYLES*/
+.card-container{
+    display: flex;
+    flex-direction: column;
+}
+.bg-card-img{
+    width: 200px;
+}
+.big-card-container{
+    background-color: white;
+    width: 200px;
+    overflow: scroll;
+    padding: 10px 15px;
+
+}
+
+ 
+}
+
+/*TABLETS*/
+@media  (min-width: 600px) and(max-width: 1200px){
+    .nav-container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+        min-height: 60px;
+        
+        align-items: center;
+    }
+    
+}
