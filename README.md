@@ -1,4 +1,5 @@
 NFT rarity ranking site  it  shows everything from trait  to  rarity   
+CLICK  PLAY  BUTTON  TO  SEE HOW  IT  WORKS  
 
 
 
