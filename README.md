@@ -17,7 +17,7 @@ _Quick Start_
 
 npm install moralis or yarn install moralis
 
-🖼️ Provide your appId and serverUrl and desired collectionAddress and collectionName in the main.js file
+🖼️ Provide your appId and serverUrl and desired collectionAddress and collectionName in the Navbar.jsx file
 
 const serverUrl = ""; //Moralis Server Url here
 const appId = ""; //Moralis Server App ID here
